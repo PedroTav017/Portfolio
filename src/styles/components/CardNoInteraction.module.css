@@ -1,0 +1,8 @@
+.cardNoInteraction {
+  position: relative;
+  padding: 30px;
+  background-color: white;
+  color: black;
+  width: 100%;
+  text-align: center;
+}

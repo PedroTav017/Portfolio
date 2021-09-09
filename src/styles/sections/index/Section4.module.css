@@ -1,0 +1,19 @@
+.section4 {
+  position: relative;
+  overflow: hidden;
+  color: white;
+  margin: 100px 0;
+}
+
+.section4 .contentHolder {
+  position: relative;
+  width: 100%;
+}
+
+.section4 .cardHolder {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}

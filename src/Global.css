@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  margin: 0;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 98, 119, 1) 100%
+  );
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Cabin", sans-serif;
+  margin: 0;
+}
+
+p {
+  font-size: 18px;
+  margin: 0;
+}
+
+small {
+  font-family: "Cabin", sans-serif;
+}
+
+/* GLOBAL CLASSES */
+.backImage {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.backImage img {
+  width: 100%;
+}
+
+.largeText {
+  font-size: 64px;
+}

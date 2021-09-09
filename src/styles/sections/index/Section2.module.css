@@ -1,0 +1,39 @@
+.section2 {
+  position: relative;
+  color: white;
+  margin: 100px 0;
+}
+
+.section2 .contentHolder {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.section2 .contentHolder div {
+  width: 50%;
+}
+
+.section2 .contentHolder .innerImgHolder {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.section2 .contentHolder .innerImgHolder img {
+  width: 50%;
+  border-radius: 10px;
+}
+
+.section2 .contentHolder .imgHolder {
+  position: absolute;
+  top: 0%;
+  left: -50%;
+  z-index: -1;
+}
+
+.section2 .contentHolder .imgHolder img {
+  height: 100vw;
+  transform: rotateZ(180deg) rotateX(180deg);
+  opacity: 0.2;
+}

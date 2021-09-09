@@ -1,0 +1,17 @@
+.section3 {
+  position: relative;
+  overflow: hidden;
+  color: white;
+  margin: 100px 0
+}
+
+.section3 .contentHolder {
+  position: relative;
+  width: 100%;
+}
+
+.section3 .contentHolder .cardHolder {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}

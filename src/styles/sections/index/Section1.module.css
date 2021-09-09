@@ -1,0 +1,24 @@
+.section1 {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.section1 img {
+  width: 150px;
+}
+
+.section1 .textHolder {
+  width: 650px;
+}
+
+.section1 .cardHolder {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}

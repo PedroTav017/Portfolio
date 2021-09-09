@@ -1,0 +1,29 @@
+.card {
+  position: relative;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.card:hover{
+  cursor: pointer;
+}
+
+.card img {
+  position: absolute;
+  transform: scale(10);
+  transition: 1s;
+}
+
+.card .hidden {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  z-index: 2;
+}
