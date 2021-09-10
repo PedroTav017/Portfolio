@@ -6,9 +6,9 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 // styles
 import styles from "../../styles/sections/index/Section5.module.css";
 
-const Section5 = () => {
+const Section5 = (props) => {
   return (
-    <div className={styles.section5}>
+    <div ref={props.refs.contacts} className={styles.section5}>
       <Container>
         <div className={styles.contentHolder}>
           <h1>

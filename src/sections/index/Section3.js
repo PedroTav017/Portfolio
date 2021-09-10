@@ -4,9 +4,9 @@ import CardNoInteraction from "../../components/CardNoInteraction";
 // styles
 import styles from "../../styles/sections/index/Section3.module.css";
 
-const Section3 = () => {
+const Section3 = (props) => {
   return (
-    <div className={styles.section3}>
+    <div ref={props.refs.qualifications} className={styles.section3}>
       <Container>
         <div className={styles.contentHolder}>
           <h1>

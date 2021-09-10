@@ -5,14 +5,14 @@ import Section3 from "../sections/index/Section3";
 import Section4 from "../sections/index/Section4";
 import Section5 from "../sections/index/Section5";
 
-const Index = () => {
+const Index = (props) => {
   return (
     <>
-      <Section1 />
-      <Section2 />
-      <Section3 />
-      <Section4 />
-      <Section5 />
+      <Section1 refs={props.refs} />
+      <Section2 refs={props.refs} />
+      <Section3 refs={props.refs} />
+      <Section4 refs={props.refs} />
+      <Section5 refs={props.refs} />
     </>
   );
 };

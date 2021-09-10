@@ -3,14 +3,11 @@ import Container from "../../components/Container";
 // styles
 import styles from "../../styles/sections/index/Section2.module.css";
 
-const Section2 = () => {
+const Section2 = (props) => {
   return (
-    <div className={styles.section2}>
+    <div ref={props.refs.about} className={styles.section2}>
       <Container>
         <div className={styles.contentHolder}>
-          <div className={styles.imgHolder}>
-            <img src="/assets/image/index/section2/Back.svg" alt="Me" />
-          </div>
           <div>
             <h1>
               <small style={{ color: "#007a93" }}>01.</small> About Me.

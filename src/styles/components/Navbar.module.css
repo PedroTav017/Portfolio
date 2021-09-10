@@ -1,41 +1,32 @@
-.navbarCont {
+.logoHolder {
   position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 9999;
-  width: 100%;
-}
-
-.navbar {
-  width: 100%;
-  height: 110px;
-  padding: 30px;
+  top: 30px;
+  left: 30px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  font-size: 20px;
+  height: 64px;
   color: white;
+  padding: 10px 0;
+  z-index: 9999;
 }
 
-.navbar .logoHolder {
-  display: flex;
-  align-items: center;
-  height: 100%;
-}
-
-.navbar .logoHolder small {
-  line-height: 16px;
+.logoHolder small {
+  line-height: 14px;
   margin-left: 10px;
 }
 
-.navbar img {
+.logoHolder img {
   height: 100%;
 }
 
-.navbar .menuIcon {
-  margin-right: -10px;
+.menuIcon {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  color: white;
+  z-index: 9999;
 }
 
-.navbar .menuIcon:hover {
+.menuIcon:hover {
   cursor: pointer;
 }

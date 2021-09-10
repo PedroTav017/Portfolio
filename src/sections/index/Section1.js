@@ -4,9 +4,9 @@ import Card from "../../components/Card";
 // styles
 import styles from "../../styles/sections/index/Section1.module.css";
 
-const Section1 = () => {
+const Section1 = (props) => {
   return (
-    <div className={styles.section1}>
+    <div ref={props.refs.home} className={styles.section1}>
       <Container>
         {/*
         <img src="/assets/image/global/SVG/logoBlack.svg" alt="" />

@@ -6,16 +6,19 @@ const SideNav = (props) => {
     <div
       className={styles.sideNav}
       style={{
-        transform: props.sideNav ? "scale(1)" : "scale(0)",
-        borderRadius: props.sideNav ? "0 0 0 0" : "0 0 0 2000px",
+        top: props.sideNav ? "0" : "-100%",
       }}
     >
       <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Qualifications</li>
-        <li>Work</li>
-        <li>Contact</li>
+        <li onClick={() => props.executeScroll(props.refs.home)}>Home</li>
+        <li onClick={() => props.executeScroll(props.refs.about)}>About</li>
+        <li onClick={() => props.executeScroll(props.refs.qualifications)}>
+          Qualifications
+        </li>
+        <li onClick={() => props.executeScroll(props.refs.work)}>Work</li>
+        <li onClick={() => props.executeScroll(props.refs.contacts)}>
+          Contact
+        </li>
       </ul>
     </div>
   );

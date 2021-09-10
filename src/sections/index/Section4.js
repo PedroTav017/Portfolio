@@ -4,9 +4,9 @@ import WorkCard from "../../components/WorkCard";
 // styles
 import styles from "../../styles/sections/index/Section4.module.css";
 
-const Section4 = () => {
+const Section4 = (props) => {
   return (
-    <div className={styles.section4}>
+    <div ref={props.refs.work} className={styles.section4}>
       <Container>
         <div className={styles.contentHolder}>
           <h1>

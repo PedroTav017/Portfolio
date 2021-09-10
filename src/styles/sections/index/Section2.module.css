@@ -1,7 +1,7 @@
 .section2 {
   position: relative;
   color: white;
-  margin: 100px 0;
+  padding: 100px 0;
 }
 
 .section2 .contentHolder {
@@ -23,17 +23,4 @@
 .section2 .contentHolder .innerImgHolder img {
   width: 50%;
   border-radius: 10px;
-}
-
-.section2 .contentHolder .imgHolder {
-  position: absolute;
-  top: 0%;
-  left: -50%;
-  z-index: -1;
-}
-
-.section2 .contentHolder .imgHolder img {
-  height: 100vw;
-  transform: rotateZ(180deg) rotateX(180deg);
-  opacity: 0.2;
 }
